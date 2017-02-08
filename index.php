@@ -1,5 +1,3 @@
-<?php include 'database.php'; ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +15,8 @@
   <div class="">
     <nav>
       <ul class="nav nav-justified">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="newbparts.php">SUBMIT</a></li>
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="newbpart.php">SUBMIT</a></li>
 
 
       </ul>
@@ -27,25 +25,25 @@
   <div class="">
     <h1>The Human Anatomy: Bone Edition</h1>
     <p class="lead"> created by Tajon H.</p>
-    <p><a class="btn btn-lg btn-success" href="newbpart.php" role="button"> Add to the list</a></p>
   </div>
+
   <div id="container">
   <div class = "jumbotron"
+  <article>
   <h1>Bones</h1>
 
-  <p class="middle"><a href="inventory.php">These </a>are the some examples of body parts and the bones inside of them</p>
+  <p class="middle"><a href="inventory.php">These </a>are some examples of body parts, what they are used for, and the bones inside of them.</p>
 
-  <p class="middle">Feel free  to add any parts that are not mentioned above</p>
+  <p class="middle">Feel free to add any body parts that are not mentioned in the table above by clicking "add to the list".</p>
+  <p> See the GitHub <a href="https://github.com/Tajon/myhumanbody/"> here</a>! </p>
+    <p><a class="btn btn-lg btn-success" href="newbpart.php" role="button"> Add to the list</a></p>
   </div>
-
-
-
-
-
+</div>
+</article>
 
   <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-      <script src="js/script.js"></script>
+      <script src="js/script.js"></script> -->
 </body>
 
 </html>

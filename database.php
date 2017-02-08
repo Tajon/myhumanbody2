@@ -1,7 +1,7 @@
 <?php
 
 $server   = "localhost";
-$database = "body";
+$database = "myhumanbody";
 $username = "root";
 $password = "";
 

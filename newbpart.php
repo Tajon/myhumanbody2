@@ -14,9 +14,10 @@
 
 <h1>Enter Another Body Part</h1>
 
-<p class="middle"><a href="inventory_update.php">View full list</a></p>
+<p class="middle"><a href="inventory.php">View full list</a></p>
+  <p> Return <a href="index.php"> home</a>. </p>
 
-<div id="socks">
+<div id="bones">
 
 <form id="boneform" method="post" autocomplete="off">
 <!-- autocomplete="off" ensures form will be empty if user clicks
@@ -38,7 +39,7 @@
     </select>
 
     <label for="number">Number of Bones </label>
-	<input type="number" name="number" id="number" max="99.99" required>
+	<input type="number" name="number" id="number" max="99" required>
     <!-- step="0.01" (above) allows decimal to be entered -->
 
 	<input type="submit" id="submit" value="Submit">
